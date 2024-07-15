@@ -25,6 +25,8 @@ public class CheckoutServiceTest {
 
   @Test
   public void testPurchaseSucceeds() {
+    // when(nameOfMock.methodWeWantToMock(args)).thenReturn(desiredResponse);
+
     var actual = fixture.purchase(null, null);
 
     assertTrue(actual);

@@ -39,6 +39,8 @@ public class BankServiceTest {
   public void testBankServiceTransferFailsToTD() {
     Boolean actual = fixture.getFunds(null, null);
 
+    // look at doThrow() in mockito documentation for help mocking void methods
+
     assertFalse(actual);
   }
 }
