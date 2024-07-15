@@ -2,6 +2,9 @@ package com.intelliware.unit_testing.mocking.banking.adapters;
 
 import java.util.UUID;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class TDAdapter implements BankAdapter {
 
   @Override
